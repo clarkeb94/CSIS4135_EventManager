@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BClarkeEventManager" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Brando\\EventManager\\MyEventManager\\MyEventManager\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Brando\\EventManager\\MyEventManager\\MyEventManager\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:csis4135.database.windows.net,1433;Initial Catalog=BClarkeEventManager_db;User Id=clarkeb94@csis4135;Password=ImT2uA16" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Brando\\EventManager\\MyEventManager\\MyEventManager\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
